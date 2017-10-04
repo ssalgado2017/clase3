@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+ <meta charset="utf-8" />
+ <title>banderas</title>
+ <style>
+ 	body{
+ 		margin: 30px;
+ 	}
+ 
+ 	.cuadro {
+ 		position: relative;
+ 		background-color: white;
+ 		width: 650px;
+ 		height: 650px;
+ 	}
+ 	.cuadro1{
+ 		position: absolute;
+ 		background-color: white;
+ 		width: 100%;
+ 		height: 300px;
+ 		margin-top: 10px;
+ 		
+ 	}
+ 	.cuadro2{
+ 		position: absolute;
+ 		background-color: white;
+ 		width: 100%;
+ 		height: 650px;
+ 		margin-top: 300px;
+ 		
+ 	}
+
+ 	.bandera1{
+ 		position: absolute;
+ 		background-color: white;
+ 		box-sizing: border-box;
+ 		width: 300px;
+ 		height: 300px;
+ 		margin-top: 30px;
+  		left: 0%;
+ 	}
+ 	
+ 	.bandera2{
+ 		position: absolute;
+ 		background-color: white;
+ 		box-sizing: border-box;
+ 		width: 300px;
+ 		height: 300px;
+ 		margin-top: 30px;
+  		left: 54%;
+ 	}
+ 	.espacio1{
+ 		position: absolute;
+ 		box-sizing: border-box;
+ 		width: 50px;
+ 		height: 200px;
+ 		margin-top: 30px;
+ 		left: 46%;
+
+ 	}
+
+ 	.texto{
+ 		box-sizing: border-box;
+ 		position: absolute;
+ 		width: 100%;
+ 		height: 50px;
+ 		top:110%;
+ 	}
+	
+	.espana_fondo{
+		position:absolute;
+		background-color: red;
+		border-top: solid silver;
+  		border-right: solid silver;
+  		border-bottom: solid silver;
+  		border-left: solid silver;
+  		width: 100%;
+ 		height: 200px;
+	}
+
+	.espana_amarillo{
+		position:absolute;
+		box-sizing: border-box;
+		background-color: yellow;
+ 		width: 100%;
+ 		height: 80px;
+ 		top: 30%;
+	}
+	
+	.dinamarca_fondo{
+		position:absolute;
+		background-color: red;
+		border-top: solid silver;
+  		border-right: solid silver;
+  		border-bottom: solid silver;
+  		border-left: solid silver;
+  		width: 100%;
+ 		height: 200px;
+	}
+
+	.dinamarca_blanco_h{
+		position:absolute;
+		box-sizing: border-box;
+		background-color: white;
+ 		width: 100%;
+ 		height: 20px;
+		top: 45%;
+	}
+
+	.dinamarca_blanco_v{
+		position:absolute;
+		box-sizing: border-box;
+		background-color: white;
+ 		width: 20px;
+ 		height: 100%;
+ 		left: 30%;
+	}
+	.emiratos_fondo{
+		position:absolute;
+		background-color: red;
+		border-top: solid silver;
+  		border-right: solid silver;
+  		border-bottom: solid silver;
+  		border-left: solid silver;
+  		width: 100%;
+ 		height: 200px;
+
+	}
+
+	.emiratos_verde{
+		position:absolute;
+		box-sizing: border-box;
+		background-color: green;
+ 		width: 75%;
+ 		height: 33%;
+ 		left: 25%;
+	}
+
+	.emiratos_blanco{
+		position:absolute;
+		box-sizing: border-box;
+		background-color: white;
+ 		width: 75%;
+ 		height: 33%;
+ 		top: 66px;
+ 		left: 25%;
+	}
+
+	.emiratos_negro{
+		position:absolute;
+		box-sizing: border-box;
+		background-color: black;
+ 		width: 75%;
+ 		height: 34%;
+ 		top: 132px;
+ 		left: 25%;
+	}
+	.japon_fondo{
+		position:absolute;
+		background-color: white;
+		border-top: solid silver;
+  		border-right: solid silver;
+  		border-bottom: solid silver;
+  		border-left: solid silver;
+  		width: 100%;
+ 		height: 200px;
+
+	}
+	.japon_interior{
+		position:absolute;
+		box-sizing: border-box;
+     	width: 100px;
+     	height: 100px;
+     	border-radius: 50%;
+     	background: red;
+     	margin-left: auto;
+     	margin-right: auto;
+     	top: 25%;
+		left: 30%;
+	}
+	
+
+	</style>
+</head>
+<body>
+	<div class="cuadro">
+		<div class="cuadro1">
+			<div class="bandera1">
+				<div class="espana_fondo">
+					<div class="espana_amarillo"></div>
+					<div class="texto">España</div>
+				</div>
+			</div>
+			<div class="espacio1"></div>
+			<div class="bandera2">
+	 			<div class="dinamarca_fondo">
+					<div class="dinamarca_blanco_h"></div>
+					<div class="dinamarca_blanco_v"></div>
+					<div class="texto">Dinamarca</div>
+				</div>
+			</div>
+		</div>
+		<div class="cuadro2">
+			<div class="bandera1"> 
+				<div class="emiratos_fondo">
+					<div class="emiratos_verde"></div>
+					<div class="emiratos_blanco"></div>
+					<div class="emiratos_negro"></div>
+					<div class="texto">Emiratos Arabes</div>
+				</div>
+			</div>
+			<div class="espacio1"></div>
+			<div class="bandera2">
+				<div class="japon_fondo">
+					<div class="japon_interior"></div>
+					<div class="texto">Japón</div>
+				</div>
+			</div>
+		</div>
+	</div>	
+</body>
+</html>

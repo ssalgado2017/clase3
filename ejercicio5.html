@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<style>
+		.elem{
+			width: 300px;
+ 			height: 300px;
+		}
+		.fondo{
+			position: relative;
+			/*background-position: relative;*/
+			background-image:url("images/ribbon_oferta.png");
+			background-repeat: no-repeat;
+			z-index: -10;
+		}
+		.oferta{
+			position: absolute;
+			background-image:url("images/label_red.png");
+			position: relative;
+			background-repeat: no-repeat;
+			background-position: fixed;
+			background-size: 190px;
+    		left: 24px;
+    		top: 35px;
+    		z-index: 10;	
+		}
+	</style>
+</head>
+<body>
+	<div class="elem fondo">
+		<div class="elem oferta"></div>
+	</div>
+
+</body>
+</html>

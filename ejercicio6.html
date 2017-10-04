@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>ejercicio6</title>
+	<style>
+		.elem1{
+			width: 300px;
+ 			height: 300px;
+		}
+		.elem2{
+			width: 300px;
+ 			height: 300px;
+ 			background-size: 20%; 
+		}
+		.fondo{
+			position: relative;
+			background-image:url("images/ribbon_48h.png");
+			background-repeat: no-repeat;
+			z-index: -10;
+		}
+		.despacho{
+			position: absolute;
+			background-image:url("images/despacho.png");
+			position: relative;
+			background-repeat: no-repeat;
+			background-position: fixed;
+			background-size: 20%;
+    		left: 150px;
+    		top: 150px;
+    		z-index: 10;	
+		}
+	</style>
+</head>
+<body>
+	<div class="elem fondo">
+		<div class="elem2 despacho"></div>
+	</div>
+
+</body>
+</html>
